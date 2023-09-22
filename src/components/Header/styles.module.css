@@ -1,0 +1,47 @@
+.headerWrapper {
+    align-items: center;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0 150px;
+    background-color: rgb(25, 26, 33);
+}
+
+.specialCharacter {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.headerTitle {
+    color: rgb(237, 109, 133);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.headerNavWrapper {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    gap: 70px;
+}
+
+.specialNavCharacter {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.headerNav {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(117, 202, 231);
+}
+
+.headerNav:hover {
+  text-decoration: underline;
+}
