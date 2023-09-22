@@ -1,52 +1,52 @@
 .fixedHeader {
-    position: fixed;
-    top: 0;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .headerWrapper {
-    align-items: center;
-    display: flex;
-    height: 70px;
-    justify-content: space-between;
-    padding: 0 150px;
-    background-color: rgb(25, 26, 33);
-    max-width: 90vw;
+  align-items: center;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  padding: 0 150px;
+  background-color: rgb(25, 26, 33);
+  max-width: 90vw;
 }
 
 .specialCharacter {
-    color: white;
-    font-size: 32px;
-    font-weight: 700;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .headerTitle {
-    color: rgb(237, 109, 133);
-    font-size: 32px;
-    font-weight: 700;
+  color: rgb(237, 109, 133);
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .headerNavWrapper {
-    align-items: center;
-    display: flex;
-    list-style-type: none;
-    gap: 70px;
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  gap: 55px;
 }
 
 .specialNavCharacter {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.headerNav {
   font-size: 18px;
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
-  color: white;
-}
-
-.headerNav {
-    font-size: 18px;
-    font-weight: 500;
-    text-decoration: none;
-    cursor: pointer;
-    color: rgb(117, 202, 231);
+  color: rgb(117, 202, 231);
 }
 
 .headerNav:hover {
