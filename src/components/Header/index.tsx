@@ -14,30 +14,30 @@ function Header() {
         <ul className={ styles.headerNavWrapper }>
           <li>
             <span className={ styles.specialNavCharacter }>&lt;</span>
-            <span className={ styles.headerNav }>
+            <a href="/" className={ styles.headerNav }>
               {'Página inicial '}
-            </span>
+            </a>
             <span className={ styles.specialNavCharacter }>/&gt;</span>
           </li>
           <li>
             <span className={ styles.specialNavCharacter }>&lt;</span>
-            <span className={ styles.headerNav }>
+            <a href="#sobreMim" className={ styles.headerNav }>
               {'Sobre mim '}
-            </span>
+            </a>
             <span className={ styles.specialNavCharacter }>/&gt;</span>
           </li>
           <li>
             <span className={ styles.specialNavCharacter }>&lt;</span>
-            <span className={ styles.headerNav }>
+            <a href="portfolio" className={ styles.headerNav }>
               {'Portfólio '}
-            </span>
+            </a>
             <span className={ styles.specialNavCharacter }>/&gt;</span>
           </li>
           <li>
             <span className={ styles.specialNavCharacter }>&lt;</span>
-            <span className={ styles.headerNav }>
+            <a href="contato" className={ styles.headerNav }>
               {'Contato '}
-            </span>
+            </a>
             <span className={ styles.specialNavCharacter }>/&gt;</span>
           </li>
         </ul>
